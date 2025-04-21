@@ -1,0 +1,23 @@
+[package]
+name = "Bridge_Relayer"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "Brige"
+
+[dependencies]
+storage = { workspace = true }
+types = { workspace = true }
+api = { workspace = true }
+evm = {workspace = true}
+solana = {workspace = true}
+requests = {workspace = true}
+
+axum.workspace = true
+tokio.workspace = true
+env_logger.workspace = true
+log.workspace = true
+dotenvy.workspace = true
+envy.workspace = true
+serde.workspace = true
