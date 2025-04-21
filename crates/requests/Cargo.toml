@@ -1,0 +1,24 @@
+[package]
+name = "requests"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description.workspace = true
+repository.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+log.workspace = true
+thiserror.workspace = true
+tokio.workspace = true
+tempfile.workspace = true
+alloy.workspace = true
+eyre.workspace = true
+solana-sdk.workspace = true
+
+storage = { workspace = true }
+types = { workspace = true }
+solana = {workspace = true}
+evm = {workspace = true}

@@ -1,0 +1,21 @@
+[package]
+name = "evm"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description.workspace = true
+repository.workspace = true
+
+[dependencies]
+serde.workspace = true
+tokio.workspace = true
+eyre.workspace = true
+alloy.workspace = true
+futures-util.workspace = true
+log.workspace = true
+
+bs58.workspace = true
+
+types = {workspace = true}
+storage = {workspace = true}
